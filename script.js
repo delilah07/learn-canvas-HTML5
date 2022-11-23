@@ -35,13 +35,13 @@ const mouse = {
   y: undefined,
 };
 
-// canvas.addEventListener("click", function (event) {
-//   mouse.x = event.x;
-//   mouse.y = event.y;
-//   for (let i = 0; i < 10; i++) {
-//     particleArr.push(new Particle());
-//   }
-// });
+canvas.addEventListener("click", function (event) {
+  mouse.x = event.x;
+  mouse.y = event.y;
+  for (let i = 0; i < 10; i++) {
+    particleArr.push(new Particle());
+  }
+});
 
 // ---- mouse move ----
 canvas.addEventListener("mousemove", function (event) {
