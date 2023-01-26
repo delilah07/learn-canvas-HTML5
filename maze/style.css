@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 64px;
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.2);
+}
+.hidden {
+  display: none;
+}
+.max-score,
+.score {
+  position: absolute;
+  right: 50px;
+  color: #fff;
+}
+.max-score {
+  top: 20px;
+}
+.score {
+  top: 50px;
+}
