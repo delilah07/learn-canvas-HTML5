@@ -1,6 +1,4 @@
-import Paddle from './paddle.js';
-import Ball from './ball.js';
-import { InputHandler } from './input.js';
+import Game from './game.js';
 
 const canvas = document.querySelector('#gameScreen');
 const ctx = canvas.getContext('2d');
@@ -16,15 +14,10 @@ ctx.clearRect(0, 0, GAME_WIDTH, GAME_HIGHT); //clean screen
 // ctx.fillStyle = "#ff0"; //change color for another object
 // ctx.fillRect(340, 300, 50, 50); //add second object
 
-const paddle = new Paddle(GAME_WIDTH, GAME_HIGHT);
-
-new InputHandler(paddle);
+const game = new Game(GAME_WIDTH, GAME_HIGHT);
+game.start();
 
 let lastTime = 0;
-
-// images
-// const ball = document.querySelector('#image__ball');
-const ball = new Ball(GAME_WIDTH, GAME_HIGHT);
 
 // move paddle
 function gameLoop(timestamp) {
@@ -32,12 +25,8 @@ function gameLoop(timestamp) {
   lastTime = timestamp;
 
   ctx.clearRect(0, 0, 800, 600);
-  paddle.update(deltaTime);
-  paddle.draw(ctx);
-
-  // ctx.drawImage(ball, 10, 10, 20, 20);
-  ball.update(deltaTime);
-  ball.draw(ctx);
+  game.update(deltaTime);
+  game.draw(ctx);
 
   requestAnimationFrame(gameLoop);
 }
