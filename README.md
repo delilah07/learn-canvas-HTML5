@@ -17,3 +17,12 @@
 
     3.2 Gravity
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/5.gravity/dist/
+
+    3.3 Collision Detection of 2 Balls
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/6.1.collision-detection/dist/
+
+    3.4 Collision Detection of Multiple Balls
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/6.2.collision-detection/dist/
+
+    3.5 Collision Detection of Two Rectangles
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/6.3.collision-detection-rec/dist/
