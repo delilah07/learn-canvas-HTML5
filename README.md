@@ -26,3 +26,6 @@
 
     3.5 Collision Detection of Two Rectangles
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/6.3.collision-detection-rec/dist/
+
+    3.6 Circular Motion
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/7.circular-motion/dist/
