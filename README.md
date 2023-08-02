@@ -29,3 +29,6 @@
 
     3.6 Circular Motion
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/7.circular-motion/dist/
+
+    3.7. Sine Waves , add dat.gui
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/8.sine-waves/dist/
