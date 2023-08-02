@@ -32,3 +32,6 @@
 
     3.7. Sine Waves , add dat.gui
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/8.sine-waves/dist/
+
+    3.8. One Snakey Boi with Perlin Noise
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/9.snakey-boi/dist/
