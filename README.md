@@ -38,3 +38,6 @@
 
     3.9. Realistic Canvas Fireworks
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/10.fireworks/dist/
+
+    3.10 Mace Windu's Lightsaber but With Like 10 Other Colors, with GSAP
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/11.lightsaber-effect/dist/
