@@ -35,3 +35,6 @@
 
     3.8. One Snakey Boi with Perlin Noise
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/9.snakey-boi/dist/
+
+    3.9. Realistic Canvas Fireworks
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/10.fireworks/dist/
