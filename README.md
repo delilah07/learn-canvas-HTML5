@@ -41,3 +41,6 @@
 
     3.10 Mace Windu's Lightsaber but With Like 10 Other Colors, with GSAP
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/11.lightsaber-effect/dist/
+
+    3.11 Tron-Like Particle Tunnels
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/12.tunnels/dist/
