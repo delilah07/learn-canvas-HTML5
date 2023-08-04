@@ -44,3 +44,6 @@
 
     3.11 Tron-Like Particle Tunnels
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/12.tunnels/dist/
+
+    3.12 Galactic Light Trails
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/13.galactic-trails/dist/
