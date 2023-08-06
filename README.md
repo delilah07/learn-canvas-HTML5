@@ -47,3 +47,7 @@
 
     3.12 Galactic Light Trails
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/13.galactic-trails/dist/
+
+4.  Game Chris Courses (Youtube Channel)
+    4.1 Background with Hover Effect
+    https://delilah07.github.io/learn-canvas-HTML5/chris-course-game/ball-fight/
