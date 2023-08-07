@@ -5,13 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ball Fight</title>
     <style>
-      body {
+      * {
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+      }
+      .content {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #fff;
+        font-size: 2em;
+        pointer-events: none;
+        display: none;
+      }
+      .content * {
+        user-select: none;
+      }
+      .start {
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 3em 1em;
+        text-align: center;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        border-radius: 1em;
+      }
+
+      button {
+        background-color: blueviolet;
+        border-radius: 2em;
+        padding: 1em;
+        border: none;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        font-size: 1.5em;
+        font-family: inherit;
+        font-weight: bold;
+      }
+      button:hover {
+        background-color: rgb(39, 4, 71);
+        color: #fff;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
     <canvas></canvas>
+    <div class="content">
+      <p><span>Level: </span><span class="level">1</span></p>
+      <p><span>Score: </span><span class="score">0</span></p>
+    </div>
+    <div class="start">
+      <h1>Hi, this game was made for learning purposes.</h1>
+      <h2>Have fun</h2>
+      <button>Start Game</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

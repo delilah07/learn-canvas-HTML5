@@ -49,5 +49,5 @@
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-canvas/13.galactic-trails/dist/
 
 4.  Game Chris Courses (Youtube Channel)
-    4.1 Background with Hover Effect
+    4.1 Ball Fight , HTML5 Canvas and JavaScript Game, using GSAP
     https://delilah07.github.io/learn-canvas-HTML5/chris-course-game/ball-fight/
